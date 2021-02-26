@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box
+}
+
+#random_quote{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #131419;
+}
+.generator{
+    text-align: center;
+    padding: 50px;
+    background: #131419;
+    color: #006c9c;
+    width: 600px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+                5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.generator .btn{
+    margin-top: 40px;
+    padding: 15px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #006c9c;
+    background: #131419;
+    border-radius: 40px;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.generator .btn:hover{
+    color: #006c9c;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.generator h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.generator h3{
+    font-size: 22px;
+}
